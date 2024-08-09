@@ -41,27 +41,34 @@ h6 {
 /* ncss */
 .blue {
 	height: 5vh;
-	background-color: #1a406d;
+	/* background-color: #1a406d; */
 	color: white !important;
 	text-align: center;
-	border: 1px solid #1a406d;
-	font-weight: 500;
-	padding: 21px 18px 20px 18px !important;
-	font-size: 15px;
-	border-radius: 12px;
+	border: 1px solid #fff;
+
+	padding: 15px 25px !important;
+
+	border-radius: 5px;
 }
 .blues {
-	height: 5vh;
+	
 	background-color: #1a406d;
 	color: white !important;
 	text-align: center;
-	border: 1px solid #1a406d;
-	font-weight: 500;
-	padding: 8px 18px 10px 18px !important;
-	font-size: 15px;
-	border-radius: 12px;
+	border: 1px solid #fff;
+
+	padding: 7px 15px !important;
+
+	border-radius: 5px;
 }
 
+.header.sticked {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+
+}
 .image-container {
 	position: relative;
 	width: 100%;
@@ -220,10 +227,11 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-	background: #fff;
+	background: #1A406D;
 	transition: all 0.5s;
 	z-index: 997;
-	padding: 20px 0;
+	padding: 15px 0;
+	color:#fff;
 	box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.05);
 }
 
@@ -276,8 +284,8 @@ h6 {
 	padding: 10px 30px 10px 30px;
 	font-family: "Dosis", sans-serif;
 	font-size: 17px;
-	font-weight: 500;
-	color: #000000;
+	font-weight: 400;
+	color: #fff;
 	white-space: nowrap;
 	transition: 0.3s;
 	/* text-transform: uppercase; */
@@ -366,7 +374,7 @@ h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-	color: #0f394c;
+	color: #fff;
 	font-size: 28px;
 	cursor: pointer;
 	display: none;

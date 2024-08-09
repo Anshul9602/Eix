@@ -5,7 +5,38 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+document.addEventListener('DOMContentLoaded', () => {
+  "use strict";
 
+  /**
+   * Preloader
+   */
+ 
+  /**
+   * Sticky Header on Scroll
+   */
+  const selectHeader = document.querySelector('#header');
+  if (selectHeader) {
+    let headerOffset = selectHeader.offsetTop;
+    let nextElement = selectHeader.nextElementSibling;
+
+    const headerFixed = () => {
+      if ((window.scrollY) >= 100) {
+       
+        selectHeader.classList.add('sticked');
+        if (nextElement) nextElement.classList.add('sticked-header-offset');
+      } else {
+        selectHeader.classList.remove('sticked');
+        if (nextElement) nextElement.classList.remove('sticked-header-offset');
+      }
+    }
+    window.addEventListener('load', headerFixed);
+    document.addEventListener('scroll', headerFixed);
+  }
+
+  
+
+});
 (function() {
   "use strict";
 

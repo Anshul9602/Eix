@@ -40,10 +40,10 @@
 <body>
 
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top">
-    <div class="container d-flex align-items-center justify-content-between">
+  <header id="header" class="header addclass">
+    <div class=" d-flex align-items-center justify-content-between" style="max-width:90%;margin:auto;">
 
-      <a href="Main" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+      <a href="Main" class="logo"><img src="assets/img/log.png" alt="" class="img-fluid"></a>
       
 
       <nav id="navbar" class="navbar">
@@ -52,26 +52,9 @@
           <li><a class="nav-link scrollto" href="About">About</a></li>
           <li><a class="nav-link scrollto" href="Services">Services</a></li>
           <li><a class="nav-link scrollto " href="Insight">Insight</a></li>
-          <li><a class="nav-link scrollto" href="Career">Career</a></li>
+          <li><a class="nav-link scrollto" href="Career">Careers</a></li>
 
-          <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul>
-          </li> -->
-          <li><a class="nav-link scrollto blue" href="Contact">Contact</a></li>
+         <li><a class="nav-link scrollto blue" href="Contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->

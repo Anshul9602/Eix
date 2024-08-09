@@ -1,5 +1,5 @@
 <!-- ======= Footer ======= -->
-<hr>
+
 <footer id="footer">
 
   <div class="footer-top ">
@@ -16,15 +16,15 @@
           </div>
 
           <p class="pt-5" style="color: black;
-    font-size: 18px;">
+    font-size: 18px;font-weight:600;">
             Subscribe to our Newsletter
           </p>
          
           <form action="" method="post">
-            <div class="row">
+            <div class="row mt-3">
               <div class="col-md-8 col-8">
                 <input type="email" name="email" style="border: 2px solid #c8c8c8;
-                 border-radius: 6px; height: 5vh;width: 99%;">
+                 border-radius: 6px; width: 99%;padding:7px 15px;" placeholder="you@example.com">
               </div>
               <div class="col-md-3 col-4 p-0">
                 <input type="submit" value="Submit" class="blues">
@@ -70,23 +70,22 @@
     </div>
   </div>
 
-
-
-  <!-- 
-    <div class="container py-4">
-      <div class="copyright">
-        &copy; Copyright <strong><span>ASDF</span></strong>. All Rights Reserved
-      </div>
-      <div class="credits">
-        Designed by <a href=""></a>
-      </div>
-    </div> -->
 </footer><!-- End Footer -->
 
 <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
     class="bi bi-arrow-up-short"></i></a>
 
 <!-- Vendor JS Files -->
+
+<script>
+$(window).scroll(function() {
+        var scroll = $(window).scrollTop();
+        if (scroll <= 500) {
+            $(".addclass").removeClass("addclass").addClass("stick");
+        }
+    })
+    </script>
+
 <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
 <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>

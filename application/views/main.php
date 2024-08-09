@@ -1,12 +1,13 @@
 <!-- ======= Hero Section ======= -->
 <section>
   <div class="image-container">
-    <img src="assets/img/banner1.png" alt="Banner Image" class="main-banner">
+    <img src="assets/img/banner.png" alt="Banner Image" class="main-banner">
     <div class="banner-txt">
       <p class="bannerH1 mb-0">Driving Growth </p>
-      <p class="bannerH1 md-mt-0 line2">Through Strategic Investments</p>
-      <p class="bannerp ">Creating sustainable value through innovation and expertise.</p>
-      <a class="wTop bannerH2 " href="">Discover More</a>
+      <p class="bannerH1 md-mt-0 line2">through Strategic Investments</p>
+      <p class="bannerp " style="    letter-spacing: 3.5px;">Creating sustainable value through innovation and
+        expertise.</p>
+      <a class="wTop bannerH2 " href="">Discover more</a>
     </div>
   </div>
 </section>
@@ -15,40 +16,44 @@
 <main id="main">
 
   <!-- ======= About Section ======= -->
-  <section class="no-top about">
-    <div class="container about1 py-4" style="color: #1A406D;">
-      <div class="row side">
-        <div class="col-md-6"></div>
-        <div class="col-md-5 space">
-          <h5 class="size1">About</h5>
-          <h5 class="size2 pt-4 pb-5">EIX Investment is a dynamic investment firm based in the UAE, focused on creating
+  <section class="no-top about mt-md-5 mt-4 pb-md-5 pb-4">
+    <div class="container about1 py-4">
+      <div class="row " style="justify-content: space-around;">
+        <div class="col-md-6">
+          <h3 class="bold" style="font-weight: 600;color: #1A406D;">About</h3>
+          <h1 class="newh1 mt-5" style="font-size:62px;text-transform: uppercase;font-weight:800;color:black;">
+            EIX<br> Investment
+          </h1>
+          <p style="color:#848484;">Your Growth, Our Commitment</p>
+        </div>
+        <div class="col-md-4 mt-md-0 mt-3" style="justify-items: center;align-items: center;display: flex;">
+
+          <p style="color:#232323;">EIX Investment is a dynamic investment firm based in the UAE, focused on creating
             value through strategic investments in diverse sectors. Our expertise lies in identifying high-potential
-            opportunities and leveraging our deep industry knowledge to maximize returns for our stakeholders.</h5>
-          <a class="blue1 bannerH2 " href="">Mission & Vision</a>
+            opportunities and leveraging our deep industry knowledge to maximize returns for our stakeholders.</p>
+
         </div>
       </div>
     </div>
-    <div class="section-container">
-        <img src="assets/img/about-banner.png" alt="About Banner" class="section-image">
-        <div class="overlay"></div>
-    </div>
+
   </section>
   <!-- End About Section -->
-
-  <!-- ======= Why us ======= -->
-  <section class="space section-bg">
-    <div class="container">
-      <div class="us">
-        <h5 class="size1">Why Choose Us?</h5>
-        <h5 class="sub1">Our strengths</h5>
+  <div class="row section-bg">
+    <div class="col-md-4 " style="position: relative;">
+      <img src="assets/img/why.png" alt="" width="100%">
+      <div class="cont" style="position: absolute;top:10%;left:10%;color:#fff;">
+        <h2 class="newh2" style="font-size: 48px;font-weight:600;">Why Choose Us?</h2>
+        <h4 class="mt-4">Our strengths</h4>
       </div>
+    </div>
+    <div class="col-md-8 mt-md-3 mt-3" style="align-items: center;display: flex;">
       <div class="container">
         <div class="row mspace d-flex justify-content-between">
           <div class="col-md-5 pt-4 p-md-0 d-flex justify-content-end">
             <div class="col-md-2 text-center">
               <img src="assets/img/icons/1.png" alt="">
             </div>
-            <div class="col-md-5">
+            <div class="col-md-8">
               <h5 class=" u1 mb-0">Strategic Expertise</h5>
               <p class="g">Leveraging deep industry knowledge to identify high-potential opportunities.</p>
             </div>
@@ -57,7 +62,7 @@
             <div class="col-md-2 text-center">
               <img src="assets/img/icons/2.png" alt="">
             </div>
-            <div class="col-md-4">
+            <div class="col-md-8">
               <h5 class=" u1 mb-0">Innovative Approach</h5>
               <p class="g">Employing creative strategies to maximize returns.</p>
             </div>
@@ -70,7 +75,7 @@
             <div class="col-md-2 text-center">
               <img src="assets/img/icons/3.png" alt="">
             </div>
-            <div class="col-md-5">
+            <div class="col-md-8">
               <h5 class=" u1 mb-0">Client-Centric</h5>
               <p class="g">Building long-term relationships based on trust and transparency.</p>
             </div>
@@ -79,7 +84,7 @@
             <div class="col-md-2 text-center">
               <img src="assets/img/icons/4.png" alt="">
             </div>
-            <div class="col-md-5">
+            <div class="col-md-8">
               <h5 class=" u1 mb-0">Sustainable Impact</h5>
               <p class="g">Committing to responsible investments that positively impact society and the environment.</p>
             </div>
@@ -87,100 +92,86 @@
 
         </div>
       </div>
-
-      <div class="row">
-        <div class="col-lg-4 col-md-6">
-
-        </div>
-      </div>
-
     </div>
-  </section><!-- End Why us-->
-
+  </div>
+  <div>
+    <img src="assets/img/let.png" alt="" width="100%">
+  </div>
+  <section>
+    <div class="container">
+      <h3 class="newh3" style="font-size: 38px;font-weight:600;color:#1A406D;">Insights</h3>
+      <h5 class="mt-4">News</h5>
+<br>
+      <div class="row mt-5">
+        <div class="col-md-6">
+          <div class="" style="padding-right:20px;">
+            <img src="assets/img/in1.png" alt="" width="100%">
+            <br>
+            <div class="row mt-4 " style="justify-content: space-between;">
+              <div class="col-md-4 col-8 text-start p-0">
+                <div>
+                  <a href=""><button
+                      style="padding: 10px 30px;color:#1A406D;border: 1px solid #1A406D;border-radius: 10px;background: none;">Read
+                      more</button></a>
+                </div>
+  
+              </div>
+              <div class="col-md-4 col-4 text-end">
+                <img src="assets/img/aro.png" alt="" style="width: 50px;">
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <div class="col-md-6">
+          <div style="padding-left:20px;">
+            <img src="assets/img/in1.png" alt="" width="100%">
+            <br>
+            <div class="row mt-4 " style="justify-content: space-between;">
+              <div class="col-md-4 col-8 text-start">
+                <div>
+                  <a href=""><button
+                      style="padding: 10px 30px;color:#1A406D;border: 1px solid #1A406D;border-radius: 10px;background: none;">Read
+                      more</button></a>
+                </div>
+  
+              </div>
+              <div class="col-md-4 col-4 text-end">
+                <img src="assets/img/aro.png" alt="" style="width: 50px;">
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        
+       
+      </div>
+    </div>
+  </section>
 
 
   <!-- ======= Career Section ======= -->
-  <section class="space">
-    <div class="container">
+  <section class="p-0 mt-5">
+    
       <div class="row">
-        <div class="col-md-6">
-          <img src="assets/img/career.png" alt="" style=" height: 100%;
-    width: 95%;">
+        <div class="col-md-7 p-0">
+          <img src="assets/img/car.png" alt="" style="width:100%;">
         </div>
-        <div class="col-md-5 side space">
-          <h5 class="size1">Careers</h5>
-          <p class="g">Join Our Team</p>
-          <h5 class="pt-4 pb-5">We are looking for talented individuals to join our innovative team. Explore current job
-            openings and become a part of EIX Investment.</h5>
-          <a class="blue1 " href="">Learn More</a>
+        <div class="col-md-5 p-0" style="background-color: #000;align-items: center;display: flex;color: #fff;">
+          <div class="p-md-5 p-3 m-md-5 m-3">
+            <h5 class="size1">Careers</h5>
+            <p class="g">Join Our Team</p>
+            <h6 class="pt-4 pb-5 ">We are looking for talented individuals to join our innovative team. Explore current job
+              openings and become a part of EIX Investment.</h6>
+            <a class="" href="" style="padding: 10px 30px;color:#fff;border: 1px solid #fff;border-radius: 10px;background: none;">Join now</a>
+          </div>
+          
         </div>
       </div>
     </div>
   </section>
   <!-- End Career Section -->
 
-  <!-- ======= Testimonials Section ======= -->
-  <section id="testimonials" class="testimonials">
-    <div class="container position-relative">
-
-      <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-        <div class="swiper-wrapper">
-
-          <div class="swiper-slide">
-            <div class="testimonial-item">
-              <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-              <h3>Equity Investments</h3>
-              <!-- <h4>Ceo &amp; Founder</h4> -->
-              <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                We invest in promising startups and established companies across various sectors, providing the capital they need to grow and succeed.
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-              </p>
-            </div>
-          </div><!-- End testimonial item -->
-
-          <div class="swiper-slide">
-            <div class="testimonial-item">
-              <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-              <h3>Debt Financing</h3>
-              <!-- <h4>Designer</h4> -->
-              <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                We offer a range of debt financing solutions, including loans and other debt instruments, to businesses seeking to expand or optimize their operations.
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-              </p>
-            </div>
-          </div><!-- End testimonial item -->
-
-        </div>
-        <div class="swiper-pagination"></div>
-      </div>
-
-    </div>
-  </section><!-- End Testimonials Section -->
-
-  <!-- ======= insight Section ======= -->
-  <section class="space">
-<div class="container">
-    <h5 class="size1">Insights</h5>
-    <h5 class="sub1">News</h5>
-    <div class="row  d-flex ">
-      <div class="col-md-5">
-        <img src="assets/img/insight.png" alt="" class="py-5" style="width: 100%;">
-        <a class="blue1 " href="">Read More</a>
-      </div>
-      <div class="col-md-1">
-        
-      </div>
-      <div class="col-md-5">
-        <img src="assets/img/insight.png" alt="" class="py-5"style="width: 100%;">
-        <a class="blue1 " href="">Read More</a>
-      </div>
-    
-    </div>
-</div>
-  </section>
-  <!-- End insight Section -->
 
 
 </main><!-- End #main -->
