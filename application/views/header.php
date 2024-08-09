@@ -28,13 +28,16 @@
   <link href="assets/css/style.css" rel="stylesheet">
  <link rel="stylesheet" href="assets/css/responsive.css">
 
-  <!-- =======================================================
-  * Template Name: Butterfly
-  * Template URL: https://bootstrapmade.com/butterfly-free-bootstrap-theme/
-  * Updated: Mar 17 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+ <script src="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+"></script>
+<link href="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+" rel="stylesheet">
+<style>
+  .row {
+    --bs-gutter-x: 0rem;}
+</style>
 </head>
 
 <body>
