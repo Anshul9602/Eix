@@ -149,10 +149,10 @@
 
     <!-- ======= About Section ======= -->
     <section class="no-top about mt-md-5 mt-4 pb-md-5 pb-4">
-        <div class="container about1 py-4">
+        <div class="container about1 py-4 ">
             <div class="row " style="justify-content: space-around;">
 
-                <div class="col-md-10 mt-md-0 mt-3" style="justify-items: center;align-items: center;display: flex;">
+                <div class="col-md-7 mt-md-0 mt-3" style="justify-items: center;align-items: center;display: flex;">
 
                     <p style="color:#232323;">At EIX Investment, we offer a comprehensive range of services designed to
                         meet the unique needs of our clients. Whether you’re an entrepreneur looking to scale your
@@ -253,7 +253,7 @@
 
 
    
-    <section class="desk">
+    <section class="desk"style="background-color: #f6faff;">
         <div class="mt-md-5 pt-md-5 pb-md-5 pb-3" style="margin-left: 10%;">
             <div class="row">
                 <div class="col-md-7">
