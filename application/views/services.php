@@ -148,7 +148,7 @@
 <main id="main">
 
     <!-- ======= About Section ======= -->
-    <section class="no-top about mt-md-5 mt-4 pb-md-5 pb-4">
+    <section class="no-top about pt-md-5 pt-4 pb-md-5 pb-4"style="background-image: url('assets/img/top1.png');">
         <div class="container about1 py-4 ">
             <div class="row " style="justify-content: space-around;">
 
@@ -182,7 +182,7 @@
                                     <p>We invest in promising startups and established companies across various sectors,
                                         providing the
                                         capital they need to grow and succeed.</p>
-                                    <a href=""><button class="btn1" style="">Learn
+                                    <a href="Service1"><button class="btn1" style="">Learn
                                             more</button></a>
                                 </div>
 
@@ -202,7 +202,7 @@
                                     <p>We offer a range of debt financing solutions, including loans and other debt
                                         instruments, to
                                         businesses seeking to expand or optimize their operations.</p>
-                                    <a href=""><button class="btn1">Learn more</button></a>
+                                    <a href="Service1"><button class="btn1">Learn more</button></a>
                                 </div>
 
                             </div>
@@ -221,7 +221,7 @@
                                     <p>Our asset management services are designed to help clients maximize
                                         returns on their investment
                                         portfolios through strategic asset allocation...</p>
-                                    <a href=""><button class="btn1">Learn more</button></a>
+                                    <a href="Service1"><button class="btn1">Learn more</button></a>
                                 </div>
 
                             </div>
@@ -288,6 +288,7 @@
     <div class="mob">
         <a href="Contact"><img src="assets/img/let.png" alt="" width="100%"></a>
     </div>
+   
    
 </main><!-- End #main -->
 
